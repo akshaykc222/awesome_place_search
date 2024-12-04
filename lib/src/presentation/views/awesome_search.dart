@@ -104,7 +104,7 @@ class AwesomePlaceSearch {
                   // topRight: Radius.circular(modalBorderRadius),
                 ),
               ),
-              child: _bodyModal(height: _height),
+              child: _bodyModal(height:  _height * .6),
             );
           });
         });
