@@ -93,7 +93,7 @@ class AwesomePlaceSearch {
           return LayoutBuilder(builder: (_, BoxConstraints constraints) {
             _height = constraints.maxHeight;
             return Container(
-              height: _height * .9,
+              height: _height * .6,
               width: double.infinity,
               decoration: BoxDecoration(
                 color: Colors.white,
